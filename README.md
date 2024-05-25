@@ -1,5 +1,13 @@
 # Hello Application  
 
+#SETUP  - using Docker
+
+1. Download docker
+2. Run <"docker build -t "application" ."> in cmd
+3. copy generated image_name or ID
+3. Run <"docker run -p 8080:8080  image_name">
+4. application running in port 8080
+
 Dependencies Used
 
 1. Spring Web
